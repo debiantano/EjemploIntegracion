@@ -1,0 +1,26 @@
+title: 12345
+author: rama master
+subtitle: este es un subtitulo
+
+url: "https://debiantano.github.io"
+baseurl: "/"
+
+footer_only_homepage: true
+footer_url: "https://github.com/debiantano/debiantano.github.io"
+footer_text: "Codigo del blog"
+
+profile-picture: assets/profile.png
+favicon_location: assets/favicon.ico
+
+permalink: /:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
+
+navbar:
+ - name: "Acerca de nosotros"
+   link: "about"
+ - name: "Proyectos"
+   absolute-link: "https://github.com/PROCESOS-DE-SOFTWARE-2020-II"
+
+theme: jekyll-theme-cayman
